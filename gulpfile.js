@@ -67,11 +67,11 @@ gulp.task('serve',['sass','jade'],()=>{
      browserSync.init({
          server:"./dist"
      });
-    gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss',
-                'src/sass/*.sass'], ['sass']);
+    // gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss',
+    //             'src/sass/*.sass'], ['sass']);
     gulp.watch(['src/jade/*.jade'], ['jade']);
-    gulp.watch(['src/js/*.js'], ['uglify']);
-    gulp.watch(['src/images/*'], ['imageMin']);
+    // gulp.watch(['src/js/*.js'], ['uglify']);
+    // gulp.watch(['src/images/*'], ['imageMin']);
     gulp.watch(['dist/*.html',
                 'dist/css/*.css',
                 'dist/js/*.js',
@@ -79,5 +79,6 @@ gulp.task('serve',['sass','jade'],()=>{
                 'dist/fonts/*']).on('change',browserSync.reload);
 });
 
+// gulp.task('default',['msg','jade','imageMin','uglify','sass']);
 gulp.task('default',['msg','jade','imageMin','uglify','sass','serve']);
 
