@@ -15,7 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html, body {
   background: #181818;
   font-family: 'Lato', helvetica, arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color: #222; }
 
 .clear {
@@ -23,8 +23,8 @@ html, body {
 
 p {
   font-size: 0.95em;
-  line-height: 1.4em;
-  margin-bottom: 14px;
+  line-height: 1.3em;
+  margin-bottom: 6px;
   color: #444; }
 
 .note {
@@ -309,18 +309,18 @@ section:first-child {
             column-count: 4; } }
 
 @-webkit-keyframes reset {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
+  0% { }
+  opacity: 0;
+  100% { }
+  opacity: 0; }
 
 @-webkit-keyframes fade-in {
-  0% {
-    opacity: 0; }
-  40% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+  0% { }
+  opacity: 0;
+  40% { }
+  opacity: 0;
+  100% { }
+  opacity: 1; }
 
 @keyframes reset {
   0% {
