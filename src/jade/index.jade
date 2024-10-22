@@ -18,66 +18,61 @@ html(lang="en")
              #name
                  h1.quickFade.delayTwo Luiz Carneiro, PhD
                  h2.quickFade.delayThree Software Developer
-                 p.quickFade.delayThree.subDetails Brazilian - 33 years old
+                 p.quickFade.delayThree.subDetails Brazilian & German - 35 y.o.
              #contactDetails.quickFade.delayFour
                  ul
                      li e-mail: <a href="mailto:luiz@carneiro.dev" target="_blank"> luiz@carneiro.dev </a>
-                     li twitter: <a href="https://www.twitter.com/carneiroDotDev" target="_blank"> @carneiroDotDev </a>
                      li github: <a href="https://github.com/carneiroDotDev" target="_blank"> @carneiroDotDev </a>
+                     li x: <a href="https://www.x.com/carneiroDotDev" target="_blank"> @carneiroDotDev </a>
                      li mobile: <a href="tel:004917672969754" target="_blank"> +4917672969754 </a> 
              .clear
 
          #mainArea.quickFade.delayFive
-             section 
-                 .sectionTitle
-                     img(src='images/boy.png' alt='Personal Profile Icon' class='icon')
-                     .centerSectionTitle
-                        h1 Profile
-                 .sectionContent
-                     p.justify Software Developer and PhD in Physics with large experience in cross-platform development using typescript and data analysis with python.
-                 .clear
+             section#selfDescription
+                h3 PhD in Physics and Software Developer with large experience in Typescript and Python
+                .clear
 
              section
                  .sectionTitle
                      img(src='images/statistics.png' alt='Work Experience Icon' class='icon')
                      .centerSectionTitle
-                         h1 Experience
+                         p Experience
                  .sectionContent
                      article
-                         h2 Senior full-stack Developer - Jomigo GmbH 
+                         p.positionTitle Senior full-stack Developer - Mer GmbH 
+                         p.subDetails Mar 2023 - Jan 2025 | German & English | Remote work - Tech: TS | React | Vite | Docker | Azure
+                         p.justify My daily work involved managing (from development to deployment) the frontend of two complex dashboards. Both applications focussed on electric vehicle charging infrastructure. In one of the projects I was part of a team of eight developers, while in the second one, I was the only frontend developer.
+                     article
+                         p.positionTitle Senior full-stack Developer - Jomigo GmbH 
                          p.subDetails Nov 2022 - Jan 2023 | English | Remote work - Tech: TS | React | NextJs | NodeJs | MySql
-                         p.justify As the first engineer to join the company, I started the codebase and the organizational management for developing a CRM dashboard. The MVP version of the app was finished. The company decided to lay off the entire tech department due to a financial issue.
-                        //-  ul.selfDescription
+                         p.justify As the first engineer to join the company, I started the codebase and the organizational management for developing a CRM dashboard. The MVP version of the app was finished. The company had financial issues and the project was stopped.
+                        //-  ul.jobDescription
                             //-  li Was the single responsible for the reporting system (Pyspark)
                             //-  li Wrote a package boilerplate to stardadize any new repository 
                             //-  li Implemented the first services written in typescript  
                      article
-                         h2 Full-stack Developer - Traffective GmbH
+                         p.positionTitle Full-stack Developer - Traffective GmbH
                          p.subDetails Nov 2020 - Oct 2022 | German | Remote work - Tech: Python | Databricks | AWS | TS | NodeJs | Selenium | MongoDB | MySql
                          p.justify I built an automated daily reporting system using Pyspark and Databricks, which saved sixteen hours of work weekly from other colleagues. Additionally, I implemented the first services written in Typescript and improved general code quality of projects. 
-                        //-  ul.selfDescription
+                        //-  ul.jobDescription
                             //-  li Was the single responsible for the reporting system (Pyspark)
                             //-  li Wrote a package boilerplate to stardadize any new repository 
                             //-  li Implemented the first services written in typescript  
                      article
-                         h2 Software Developer - Sport1 GmbH
-                         p.subDetails June 2018 - Oct 2020 | German | In-office work - Tech: React Native | NodeJs | Express | TS | MySql
-                         p.justify Wrote Javascript daily. Large use of ReactJS (also NextJS, GatsbyJS, React Native) together with different tools as Typescript, Jest, and Styled System. 
-                        //-  ul.selfDescription
+                         p.positionTitle Software Developer - Sport1 GmbH
+                         p.subDetails June 2018 - Oct 2020 | German | In-office work - Tech: TS | React Native | NodeJs | Express | MySql
+                         p.justify Wrote typescript daily. Large use of ReactJS (also NextJS, GatsbyJS, React Native) together with different tools as Typescript, Jest, and Styled System. 
+                        //-  ul.jobDescription
                             //-  li Managed projects from development until deployment 
                             //-  li Participated in team projects with two to fifteen developers 
                             //-  li DevOps tools as Docker, Nginx, Kubernetes were also constant topics 
-                     article
-                         h2 Frontend Developer - Free lance jobs
-                         p.subDetails June 2017 - March 2018 | English
-                         p.justify As a self-taught developer, I started converting websites mock-ups into code (s. GitHub. This CV itself is an example of a project written in pure-CSS). 
                  .clear
 
              section
                  .sectionTitle
                      img(src='images/computer.png' alt='Tech Skills Icon' class='icon')
                      .centerSectionTitle
-                        h1 Tech*
+                        p Tech*
                  .sectionContent
                      ul.keySkills
                          li TypeScript <br> React <br> NodeJS <br> Jest <br> React Native <br> Python <br> Pandas <br> Pyspark <br> AWS <br> Docker 
@@ -89,19 +84,22 @@ html(lang="en")
                  .sectionTitle
                     img(src='images/science.png' alt='Education Icon' class='icon')
                     .centerSectionTitle
-                        h1 Education 
+                        p Education 
                  .sectionContent
                      article
-                         h2 Cloud DevOps Engineer Nanodegree  
+                         p.positionTitle Microsoft Certified: Azure Fundamentals (AZ-900) 
+                         p.subDetails Certification (September 2024)
+                     article
+                         p.positionTitle Cloud DevOps Engineer Nanodegree  
                          p.subDetails Specialization course (March 2021 - December 2021)
                          p.justify Cloud storage, Blue-green or Rolling deployment, CI/CD pipelines are examples of topics covered. Everything was done using AWS as provider.  
                      article
-                         h2 Google Developer Nanodegree   
+                         p.positionTitle Google Developer Nanodegree   
                          p.subDetails Specialization course (November 2017 - September 2018)
                          p.justify Topics as accessibility, service workers, Progressive apps (PWAs) and browser storage were long discussed.  
 
                      article
-                         h2 PhD - Ludwig-Maximilians-Universität München  
+                         p.positionTitle PhD - Ludwig-Maximilians-Universität München  
                          p.subDetails Physics PhD (January 2014 - May 2018) 
                          p.justify Published three scientific articles in high impact factor journals mainly about astronomy and mathematics. Approximately 15.000 lines of code written.
 
