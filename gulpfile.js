@@ -70,7 +70,7 @@ gulp.task('serve',['sass','jade'],()=>{
     // gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss',
     //             'src/sass/*.sass'], ['sass']);
     gulp.watch(['src/jade/*.jade'], ['jade']);
-    gulp.watch(['src/sass/*.sass'], ['sass']);
+    gulp.watch(['src/sass/*'], ['sass']);
     // gulp.watch(['src/js/*.js'], ['uglify']);
     // gulp.watch(['src/images/*'], ['imageMin']);
     gulp.watch(['dist/*.html',
