@@ -105,14 +105,15 @@ p
 #contactDetails ul li a:hover
    color: #cf8a05
 
-section:first-child
+section
    border-top: 0
    padding-bottom: 4px
 
 #selfDescription
    text-align: center
+   padding-bottom: 0
 
-h3
+h3, .idiom
    font-family: 'Rokkitt', Helvetica, Arial, sans-serif
    font-size: 1.2em
    color: #000
@@ -178,10 +179,13 @@ h3
 .idioms
    list-style-type: none
    column-count: 4
-   margin: 0px 5px 10px 5px
+   margin: 0px 5px
    font-size: 0.9em
    color: #444
    text-align: center
+
+.footer
+   padding-top: 16px
 
 @media all and (min-width: 602px) and (max-width: 800px)
 
@@ -207,9 +211,9 @@ h3
       height: auto
       width: auto
       min-height: 0
-      max-height: 376px
+      max-height: 346px
       min-width: 0
-      max-width: 278px
+      max-width: 248px
       width: 80%
 
    #name, #contactDetails
@@ -225,7 +229,6 @@ h3
    #headshot
       float: none
       margin: 20px auto
-      width: 85%
 
    .keySkills
       list-style-type: none
@@ -243,7 +246,7 @@ h3
    .idioms
       list-style-type: none
       column-count: 2
-      margin: 0px 4px 2px 4px
+      margin: 0px 4px
       color: #444
       text-align: center
 
@@ -302,10 +305,10 @@ h3
       color: #cf8a05
 
    #mainArea
-      padding: 10px
+      padding: 8px
 
    .mainDetails
-      padding: 15px 35px 0px 35px
+      padding: 15px 25px 0px 25px
       border-bottom: 2px solid #cf8a05
       background: #ededed
 
