@@ -9,6 +9,7 @@ if you have a quick look at the result of it:
 
 > my name is Luiz and I am a Ph.D. in natural sciences (Physics) who found great joy in programming. By now, I have six years of professional experience as a software developer, though I have been coding for the last ten years. I am originally brasilian, turned German, and always really curious.
 
+<!---
 [comment]: <> (I wrote the text below in 2020, probably. It is still a good and extensive self-disclosure, but I feel as it is too much information.)
 
 [comment]: <> (> Dear reader,)
@@ -24,6 +25,7 @@ if you have a quick look at the result of it:
 [comment]: <> ( > My happiness in programming will always be followed by challenges as described above. Meanwhile, It is clear to me that communication plays a key role in understanding problems and finding solutions. That is why I make what is possible to improve my connection with my peers and make everyone's woking hours more enjoyable and productive. )
 
 [comment]: <> ( > Luiz Carneiro )
+-->
 
 ## How to start this project:
 
