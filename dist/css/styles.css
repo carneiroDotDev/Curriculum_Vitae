@@ -102,7 +102,7 @@ p {
 
 section {
   border-top: 0;
-  padding-bottom: 4px; }
+  padding-bottom: 6px; }
 
 #selfDescription {
   text-align: center;
@@ -186,7 +186,7 @@ h3, .idiom {
   text-align: center; }
 
 .footer {
-  padding-top: 16px; }
+  padding-top: 12px; }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
   .keySkills {
